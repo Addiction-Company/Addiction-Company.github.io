@@ -1,0 +1,42 @@
+html                                                        { scroll-behavior: smooth;    }
+#portfolio                                                  { text-align: center;         }
+#portfolio::first-line                                      { text-decoration: underline; }
+#projectsContainer                                          { margin-bottom: 30px;        }
+
+#projectsContainer a                                        { text-decoration: none;
+                                                              color: white;
+                                                              background-color: #111;
+                                                              padding: 10px;
+                                                              display: block;
+                                                              transition: background-color 0.2s;
+                                                            }
+
+#projectsContainer a:hover                                  { background-color: hsl(151, 100%, 35%); }
+#projectsContainer a:active, #projectsContainer a.current   { background-color: hsl(151, 100%, 50%); }
+.projectTab > img                                           { width:  200px; 
+                                                              height: 200px;
+                                                            }
+.description                                                { font-size: 0.9em; 
+                                                              margin: 0 30px;
+                                                            }
+.description pre                                            { margin-left: -40px;
+                                                              background-color: hsl(0,0,80%);
+                                                            }
+.description ol, .description ul, .description pre          { text-align: left;}
+#projectDetails img.preview                                 { width:  300px;
+                                                              height: 300px;
+                                                            }
+.projectTab                                                 { margin:  5px;
+                                                              padding: 10px;
+                                                            }
+
+@media screen and (min-width:756px){
+    #projectsContainer{ display: flex;
+                        justify-content: center;    
+        
+                      }
+    .description      { font-size: 1.5em;
+                        padding: 0 20%;             
+                        text-align: center;         
+                      }
+}

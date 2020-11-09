@@ -285,7 +285,7 @@ html                                                        { scroll-behavior: s
 #portfolio::first-line                                      { text-decoration: underline; }
 #projectsContainer                                          { margin-bottom: 30px;        }
 
-#portfolio a                                                { text-decoration: none;
+#portfolio a.button                                         { text-decoration: none;
                                                               color: white;
                                                               background-color: #111;
                                                               padding: 10px;
@@ -293,8 +293,8 @@ html                                                        { scroll-behavior: s
                                                               transition: background-color 0.2s;
                                                             }
 
-#portfolio a.button:hover                                          { background-color: hsl(151, 100%, 35%); }
-#portfolio a.button:active, #portfolio a.button.current                   { background-color: hsl(151, 100%, 50%); }
+#portfolio a.button:hover                                   { background-color: hsl(151, 100%, 35%); }
+#portfolio a.button:active, #portfolio a.button.current     { background-color: hsl(151, 100%, 50%); }
 .projectTab > img                                           { width:  200px; 
                                                               height: 200px;
                                                             }

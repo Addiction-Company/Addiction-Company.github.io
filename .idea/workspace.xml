@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ada6beb-7644-4da0-be6e-58d4f34ecfef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -40,7 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604845179620</updated>
       <workItem from="1604845180673" duration="9838000" />
-      <workItem from="1604936711182" duration="3678000" />
+      <workItem from="1604936711182" duration="4900000" />
     </task>
     <servers />
   </component>
@@ -48,10 +49,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="204" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604866574976">
+    <state x="204" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605004971859">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="204" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1604866574976" />
+    <state x="204" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1605004971859" />
     <state x="241" y="40" key="SettingsEditor" timestamp="1604868017508">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

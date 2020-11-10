@@ -19,15 +19,16 @@ h1, h2, h3, h4, h5, h6{
     font-size: 20px;
     background-color: #111;
 }
-#careers > hr{
-    line-height: 1.5;
-   margin: 20px 0 0 20px;
-   color: white;
-}
+
 #careers p{
     color: white;
 }
-
+#careers h1{
+    font-size: 48px;
+    text-decoration: underline;
+    color: white;
+    margin-bottom: 2rem;
+}
 ol{
     list-style: square inside;
     left: 0;
@@ -35,6 +36,9 @@ ol{
 li{
     line-height: 1.5;
     align-content: space-around;
+}
+.card-header{
+    font-size: 28.5px;
 }
 .card{
     border: 1px solid #fff;
@@ -44,17 +48,18 @@ li{
     max-width: 40rem;
     margin-right: 15px;
 }
-.card-body hr{
-    text-align:justify-all;
-    margin-right: 10px;
-    margin-left: 0;
+.card-body{
+    align-content: baseline;
+    margin: 0 10px 0 10px;
 }
-.card-body p{
+.card-text{
+    color: black;
     padding-left: 40px;
     text-align: -moz-left;
     margin-right: 10px;
     margin-left: 0;
 }
+
 .row{
     margin-bottom: 10px;
 }
